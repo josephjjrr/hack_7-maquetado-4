@@ -1,0 +1,62 @@
+@import url(https://db.onlinewebfonts.com/c/bb018e64d01355748d8ddc53553850b9?family=Cerebri+Sans+Regular);
+@import url(https://db.onlinewebfonts.com/c/ad775834db281065fc17e86ad857bf63?family=Cerebri+Sans+Bold);
+* {
+margin: 0;
+padding: 0;
+}
+
+.circle {
+
+    position: absolute;
+    border-radius: 50%;
+    z-index: -1;
+
+}
+.circle1{
+  
+    top: -7rem;
+    left: 40%;
+    width: 250px;
+    height: 250px;
+    background-color: #FFD900;
+
+}
+
+.circle2{
+    right: -8rem;
+    top: 200px;
+    width: 300px;
+    height: 300px;
+    background-color: #FF5757; 
+
+}
+.circle3{
+    left: 5%;
+    bottom: -9rem;
+    width: 10%;
+    height: 10vh;
+    border-radius: 10rem 10rem 0 0;
+    background-color: #FFC1D3;
+
+}
+main{
+    margin-top: 20vh;
+    margin-right: 10vw;
+    margin-left: 10vw;
+}
+.container{
+    font-family: "Cerebri Sans Bold";
+    font-size: 90px;
+    float: left;
+}
+#creator{
+    font-size: 40px;
+
+}
+#img1{
+  
+    float: right;
+    width: 23rem;
+    height: 30rem;
+}
+
