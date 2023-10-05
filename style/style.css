@@ -3,6 +3,7 @@
 * {
 margin: 0;
 padding: 0;
+box-sizing: border-box;
 }
 
 .circle {
@@ -32,7 +33,7 @@ padding: 0;
 }
 .circle3{
     left: 5%;
-    bottom: -60rem;
+    bottom: -90rem;
     width: 10%;
     height: 10vh;
     border-radius: 10rem 10rem 0 0;
@@ -65,7 +66,7 @@ main{
 .container2{
     background-color: #FFC1D3;
     width: 100%;
-    height: 8rem;
+    height: auto;
     display: flex;
     flex-wrap: wrap;
     border-radius: 2rem;
@@ -73,8 +74,9 @@ main{
 }
 .container2>div{
     margin-top: 1.4rem;
-    margin-left: 8rem;
-    margin-right: 8rem;
+    margin-bottom: 1.4rem;
+    margin-left: 7rem;
+    margin-right: 7rem;
     text-align: center;
 }
 .p1{
@@ -115,7 +117,7 @@ main{
     margin-right: 2.5rem;
     margin-left: 2.5rem;
     font-family: "Cerebri Sans Regular";
-    font-size: 20px;
+    font-size: 18px;
     line-height: 1.5;
     letter-spacing: 3px;
 }
@@ -124,31 +126,34 @@ main{
     margin-left: 2rem;
 }
 #services{
-float: left;
+    float: left;
+    width: 50%;
 }
 #dollar{
     float: right;
+    text-align: right;
+    width: 50%;
+
 }
 .box2{
     margin-left: 2rem;
     background-color: #FFC1D3;
     width: 93%;
-    height: 10rem;
+    height: auto;
     border-radius: 2rem;
     margin-top: 2rem;
-    padding-top: 2rem;
+    padding-top: 0.5rem;
 }   
 #images{
     width: 10px;
 }
 .box2>div>img{  
-    margin-left: 4rem;
+    margin-left: 3rem;
     float: left;
     border-radius: 50%;
     width: 3rem;
 }
 .box2>div>p{
-
     margin-left: 100px;
-    line-height: 2.3;
+    line-height: 2.7;
 }
